@@ -1,0 +1,140 @@
+*{margin: 0; padding: 0;}
+.top-nav{
+    display: flex;
+    background: #000;
+    border-bottom: 3px solid red;
+    
+}
+header.top-nav {
+    justify-content: end;
+}
+.name{
+    width: 90%;
+}
+.podval {
+    display: block;
+    background: black;
+}
+
+.top-nav h1{
+    color:tomato ;
+}
+.top-nav h2 {
+    color:tomato ;
+}
+.autorization{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.autorization a{
+    text-decoration: none;
+}
+#log{
+    padding-right: 5px;
+}
+.podval{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}
+.podval h1 {
+    color: darkgray;
+}
+.podval h2{
+    color: darkgray;
+}
+.img1 {
+    width:150px;
+
+}
+.автор{
+    margin-left: 20px;
+    margin-right:150px;
+    margin-top: 5px;
+
+}
+
+main{
+    padding: 10px;
+
+    margin-top: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black ;
+    display: flex;
+    flex-direction: row;
+}
+.login{
+    margin: auto;
+    margin-top: 140px;
+    align-content: center;
+    width: 300px;
+    height: 300px;
+    border:2px solid darkgrey;
+}
+.vvod{
+
+    display: block;
+}
+.zag{
+
+    background-color: black;
+    color: tomato;
+    text-align: center;
+}
+.email{
+    margin-top: 90px;
+    margin-left: 10px;
+}
+.password{
+    margin-top: 10px;
+    margin-left: 52px;
+}
+.but{
+    margin-top: 10px;
+    margin-left: 226px;
+}
+.one{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+.glav{
+    display: flex;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    border-bottom: 4px solid tomato;
+}
+.opisanie{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+    border-bottom: 4px solid tomato;
+    padding-bottom: 20px;
+
+}
+.glav2{
+    display: flex;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    border-bottom: 4px solid tomato;
+}
+.glav3{
+    margin-left: 25px;
+}
+.glav4{
+
+    margin-top: 5px;
+    padding-bottom: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
