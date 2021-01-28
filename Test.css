@@ -73,12 +73,12 @@ main{
     margin-top: 140px;
     align-content: center;
     width: 300px;
-    height: 300px;
+
     border:2px solid darkgrey;
 }
 .vvod{
 
-    display: block;
+
 }
 .zag{
 
@@ -86,17 +86,40 @@ main{
     color: tomato;
     text-align: center;
 }
-.email{
-    margin-top: 90px;
+.last_name{
+    margin-top: 10px;
     margin-left: 10px;
+}
+.group{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.pasword{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.pasword2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.loginn {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.name{
+    margin-top: 10px;
+    margin-left: 10px;
+
 }
 .password{
     margin-top: 10px;
     margin-left: 52px;
 }
 .but{
+    margin-bottom: 20px;
     margin-top: 10px;
-    margin-left: 226px;
+    margin-left: 150px;
+    line-height: 32px;
 }
 .one{
     margin-left: 20px;
