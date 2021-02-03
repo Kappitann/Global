@@ -161,3 +161,7 @@ main{
     margin-right: 25px;
     margin-left: 25px;
 }
+.command{
+    display: grid;
+    grid-template-columns: 30% 25% 20% 25%;
+}
