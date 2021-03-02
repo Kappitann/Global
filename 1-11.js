@@ -142,4 +142,33 @@ console.log(isDivisible(3,4,5));
     Mul(2,2);
     Add(3,5);
 }
+//9
+{
+    console.log('task 9:');
+    function isPrime(num) {
+        if (num <= 1) return false; // negatives
+        if (num % 2 == 0 && num > 2) return false; // even numbers
+        let s = Math.sqrt(num); // store the square to loop faster
+        for(let i = 3; i <= s; i++) { // start from 3, stop at the square, increment
+            if(num % i === 0) return false; // modulo shows a divisor was found
+        }
+        return true;
+    }
+
+    function usernumber(n){
+        let result;
+        if(n<0){
+            result = "number is negative."
+        }else{
+            result = "number is positive."
+        }
+        isPrime(n) ? result+= " number is simple." : result+= " number isn`t simple.";
+
+        if(n%2==0&&n%5==0&&n%3==0&&n%6==0&&n%9==0){
+            result+=" number is divided on 2, 3, 5, 6, 9."
+        }
+        return result;
+    }
+    console.log(usernumber(10));
+}
 
