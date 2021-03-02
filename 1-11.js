@@ -43,4 +43,21 @@
     };
     console.log(calculate(4,5,3));
 }
+//5
+console.log('task 5:');
+function isDivisible(n,x,y){
+    let bool = false;
+    if(n%x==0&& n%y==0){
+        bool = true;
+    }
+    else{
+        bool = false;
+    }
+
+    n%x==0&& n%y==0? bool2=true: bool2=false;
+
+    return bool;
+
+}
+console.log(isDivisible(3,4,5));
 
