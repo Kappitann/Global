@@ -171,4 +171,18 @@ console.log(isDivisible(3,4,5));
     }
     console.log(usernumber(10));
 }
-
+//10
+{
+    console.log('task 10:');
+    function task10(mas){
+        mas.reverse();
+        for (let i = 0; i < mas.length; i++) {
+            if(typeof(mas[i]) == "number"){
+                mas[i]*=mas[i];
+            }
+        }
+        return mas;
+    }
+    let arr = [1,2,3,4,5, "efs", "fdbdf"];
+    console.log(task10(arr));
+}
