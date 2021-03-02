@@ -60,4 +60,40 @@ function isDivisible(n,x,y){
 
 }
 console.log(isDivisible(3,4,5));
+//6
+{
+    console.log('task 6:');
+    function task6(elementsCount){
+        function random(min, max) {
+            return Math.round(min + Math.random() * (max - min));
+        }
+        let arrodd = [];
+        let arr = [];
+        for (let i = 0; i < elementsCount; i++) {
+            arr.push(random(1,100));
+        }
+        console.log(arr);
+        let maxValue = 0;
+        let minValue = 1000;
+        let elementsSum = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] > maxValue) {
+                maxValue = arr[i];
+            }
+            if (arr[i] < minValue) {
+                minValue = arr[i];
+            }
+            if (arr[i] % 2 == 1) {
+                arrodd.push(arr[i]);
+            }
+            elementsSum += arr[i];
+        }
+        console.log("max " + maxValue);
+        console.log("min " + minValue);
+        console.log("sum " + elementsSum);
+        console.log("average " + elementsSum / arr.length);
+        console.log("odd " + arrodd);
+    }
+    task6(10);
+}
 
