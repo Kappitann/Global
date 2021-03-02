@@ -35,4 +35,12 @@
     }
     task3(16);
 }
+//4
+{
+    console.log('task 4:');
+    function calculate(a=0, b=0, c=0){
+        return (a+b+c)/3;
+    };
+    console.log(calculate(4,5,3));
+}
 
