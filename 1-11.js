@@ -120,4 +120,26 @@ console.log(isDivisible(3,4,5));
     }
     task7();
 }
+//8
+{
+    console.log('task 8:');
+    function Add(a,b){
+        console.log(a+b);
+    }
+    function Sub(a,b){
+        console.log(a-b);
+    }
+    function Mul(a,b){
+        console.log(a*b);
+    }
+    function Add(a,b){
+        if(b==0) {
+            throw console.error("div on 0");
+        }else{
+            console.log(a+b);
+        }
+    }
+    Mul(2,2);
+    Add(3,5);
+}
 
