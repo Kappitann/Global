@@ -96,4 +96,28 @@ console.log(isDivisible(3,4,5));
     }
     task6(10);
 }
+//7
+{
+    console.log('task 7:');
+    function task7() {
+        let arr = [[],[],[],[],[]];
+        for (let i = 0; i < 5; i++) {
+            for (let j = 0; j < 5; j++) {
+                arr[i][j] = Math.round(-50 + Math.random() * (100));
+            }
+        }
+        console.log(arr);
+        let mas = arr.slice();
+        for (let i = 0; i < 5; i++) {
+            if (mas[i][i] < 0) {
+                mas[i][i] = 0;
+            }
+            if (mas[i][i] > 0) {
+                mas[i][i] = 1;
+            }
+        }
+        console.log(mas);
+    }
+    task7();
+}
 
