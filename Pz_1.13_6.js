@@ -4,8 +4,9 @@ let characters = [
 ];
 
 function pluck(array) {
-    return array.map(item => item.name)
-        .filter((value, index, self) => self.indexOf(value) === index)
+    for (let key in array) {
+        console.log(array[key].name)
+    }
 }
 
 console.log(pluck(characters)); //['Barney', 'Fred'];

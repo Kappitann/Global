@@ -8,8 +8,8 @@ class Worker {
     }
     getSalary() { return console.log(`Salary worker: ${this.days * this.days}`) }
 }
-let w1 = new Worker('Misha', 'Reshetnikov', 400, 15)
-let w2 = new Worker('Shmidt', 'Kovalenko', 150, 10)
+let w1 = new Worker('Slava', 'Stepanenko', 400, 15)
+let w2 = new Worker('Oleksandr', 'Vlasenko', 150, 10)
 let w3 = new Worker('Alex', 'Komisarov', 340, 20)
 w1.getSalary();
 w2.getSalary();

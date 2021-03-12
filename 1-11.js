@@ -132,7 +132,7 @@ console.log(isDivisible(3,4,5));
     function Mul(a,b){
         console.log(a*b);
     }
-    function Add(a,b){
+    function Div(a,b){
         if(b==0) {
             throw console.error("div on 0");
         }else{
@@ -141,6 +141,7 @@ console.log(isDivisible(3,4,5));
     }
     Mul(2,2);
     Add(3,5);
+
 }
 //9
 {
